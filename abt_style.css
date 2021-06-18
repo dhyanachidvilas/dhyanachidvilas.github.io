@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+
+  }
+@media (max-width: 768px) {
+  
+}
+@media (max-width: 576px) {
+  
+}
+*{
+  font-family: Poppins;
+}
+
+/*---Firefox Bug Fix --*/
+.carousel-item {
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+}
+/*--- Fixed Background Image --*/
+figure {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  margin: 0!important;
+}
+.fixed-wrap {
+  clip: rect(0, auto, auto, 0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#fixed {
+  background-image: url('img/mac.png');
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  will-change: transform;
+}
+/*--- Bootstrap Padding Fix --*/
+[class*="col-"] {
+    padding: 1rem;
+}
+.move{
+    margin-left: 120px;
+}
+.bluehover{
+  color:#010509;;
+  text-decoration: none;
+}
+.bluehover:hover{
+  color:#03242D;
+  transition: 0.5s;
+  text-decoration: none;
+}
+img {
+    border-radius: 50%;
+}
+.newpadding{
+    padding-left: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    margin-left: 180px;
+    margin-top:100px;
+    justify-content:center;
+}
+.text {
+    font-size: 15px;
+    padding-left: 10px;
+    margin-left: 30px;
+    color:#010509;
+}
+.containerprefooter {
+  display: flex;
+  align-items: center;
+  margin-top:100px;
+  justify-content:center;
+
+}
+.containerfooter {
+    display: flex;
+    align-items: center;
+    margin-top:100px;
+    justify-content:center;
+
+}
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.pt-15 {
+  padding-top: 15px;
+}
+
+.pt-20 {
+  padding-top: 20px;
+}
+
+.pt-25 {
+  padding-top: 25px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.pt-40 {
+  padding-top: 40px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.pt-60 {
+  padding-top: 60px;
+}
+
+.pt-70 {
+  padding-top: 70px;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pt-90 {
+  padding-top: 90px;
+}
+
+.pt-100 {
+  padding-top: 100px;
+}
+
+.pt-120 {
+  padding-top: 120px;
+}
+
+.pt-150 {
+  padding-top: 150px;
+}
+
+.pt-170 {
+  padding-top: 170px;
+}
+
+.pb-0 {
+  padding-bottom: 0px;
+}
+
+.pb-10 {
+  padding-bottom: 10px;
+}
+
+.pb-15 {
+  padding-bottom: 15px;
+}
+
+.pb-20 {
+  padding-bottom: 20px;
+}
+
+.pb-25 {
+  padding-bottom: 25px;
+}
+
+.pb-30 {
+  padding-bottom: 30px;
+}
+
+.pb-40 {
+  padding-bottom: 40px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pb-60 {
+  padding-bottom: 60px;
+}
+
+.pb-70 {
+  padding-bottom: 70px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.pb-90 {
+  padding-bottom: 90px;
+}
+
+.pb-100 {
+  padding-bottom: 100px;
+}
+
+.pb-120 {
+  padding-bottom: 120px;
+}
+
+.pb-150 {
+  padding-bottom: 150px;
+}
+.social a {
+  font-size:2.5em;
+  padding:1rem;
+}
+.fa-facebook{
+  color:#3b5998;
+}
+.fa-twitter{
+  color:#00aced;
+}
+.fa-instagram{
+  color:#833AB4;
+}
+.fa-whatsapp{
+  color:#4fce5d;
+}
+.fa-youtube{
+  color:#bb0000;
+}
+.fa-linkedin:hover,
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+.fa-youtube:hover{
+  color:#d5d5d5;
+}
+.backcolor {
+  background-color: rgb(243, 243, 243);
+}
+
+.prev_footer{
+  font-size: 15px;
+  color:#010509;
+}
+footer{
+  background-color: #FFFFFF;
+  color:#303030;
+  width:100%;
+}
+.footerele{
+  margin-left: 00px;
+  font-size: 15px;
+  color:#010509;
+}
+.genric-btn.primary-border:hover {
+  color: #ffffff;
+  border: 1px solid #03242D;
+  background: #03242D;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top:3px;
+}
+.genric-btn.primary-border {
+  color: #03242D;
+  border: 1px solid #03242D;
+  background: #fff;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-top:3px;
+}
+
+.genric-btn.circle {
+  border-radius: 60px;
+}
+.smallfont{
+  font-size: 12px
+}
