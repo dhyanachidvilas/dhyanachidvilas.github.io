@@ -12,7 +12,9 @@
 }
 *{
     font-family: Poppins;
-    
+}
+.fontlogo {
+    font-family: Poppins;
 }
 /*---Firefox Bug Fix --*/
 .carousel-item {
@@ -59,15 +61,18 @@ figure {
     margin-left: 120px;
 }
 .bluehover{
-    color:black;
+    color:#010509;
     text-decoration: none;
-}
+  }
 .bluehover:hover{
     color:#03242D;
     transition: 0.5s;
     text-decoration: none;
 }
 
+.image {
+    height:auto;
+}
 .newpadding{
     padding-left: 20px;
 }
@@ -77,10 +82,21 @@ img {
 .container {
     display: flex;
     align-items: center;
-    margin-left: 160px;
-    margin-top:100px;
+    margin-left: 12em;
+    margin-top:6em;
+    margin-right: 12em;
     justify-content:center;
+    width: 100%;
+    /*background-color: rgb(255, 255, 255);*/
 }
+.nav-link {
+    font-color: black;
+}
+.nav-link:hover {
+    font-color:#03242D;
+}
+
+
 .containerprefooter {
     display: flex;
     align-items: center;
@@ -95,10 +111,24 @@ img {
     justify-content:center;
 }
 .text {
-    font-size: 15px;
+    font-size: 0.98rem;
     padding-left: 0px;
     margin-left: 60px;
     color:#010509;
+}
+.footertext {
+   
+    font-size: 0.98rem;
+    margin-left: 2.5em;
+    padding-left: 0px;
+    color:#010509;
+    
+}
+.homepage1 {
+    font-size: 1.7rem;
+}
+.homepage2 {
+    font-size: 2.5rem;
 }
 .headermargin{
     margin-top: 50px;
@@ -159,23 +189,27 @@ footer{
     margin-left: 00px;
     font-size: 15px;
 }
-
-
+.logohead {
+    margin-left: 6em;
+}
+.nav-item {
+    margin-right: 1.1em;
+}
 
 .genric-btn.primary-border:hover {
     color: #ffffff;
     border: 1px solid #03242D;
     background: #03242D;
-    margin-left: 15px;
-    margin-right: 20px;
+    
+    margin-right: 6.5em;
     margin-top:3px;
 }
 .genric-btn.primary-border {
     color: #03242D;
     border: 1px solid #03242D;
     background: #fff;
-    margin-left: 15px;
-    margin-right: 20px;
+    
+    margin-right: 6.5em;
     margin-top:3px;
 }
 

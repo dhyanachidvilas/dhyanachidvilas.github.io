@@ -59,13 +59,17 @@ figure {
     margin-left: 120px;
 }
 .bluehover{
-  color:#010509;;
+  color:#010509;
   text-decoration: none;
 }
 .bluehover:hover{
   color:#03242D;
   transition: 0.5s;
   text-decoration: none;
+}
+.text_mar{
+  margin-top: 50px;
+  margin-left: 200px;
 }
 img {
     border-radius: 50%;
@@ -81,10 +85,13 @@ img {
     justify-content:center;
 }
 .text {
-    font-size: 15px;
+    font-size: 0.98rem;
     padding-left: 10px;
     margin-left: 30px;
     color:#010509;
+}
+.logohead {
+  margin-left: 6em;
 }
 .containerprefooter {
   display: flex;
@@ -253,15 +260,28 @@ img {
 .backcolor {
   background-color: rgb(243, 243, 243);
 }
-
+.nav-item {
+  margin-right: 1.1em;
+}
 .prev_footer{
   font-size: 15px;
   color:#010509;
+}
+.image {
+  height:auto;
 }
 footer{
   background-color: #FFFFFF;
   color:#303030;
   width:100%;
+}
+.footertext {
+   
+  font-size: 0.98rem;
+  margin-left: 2.5em;
+  padding-left: 0px;
+  color:#010509;
+  
 }
 .footerele{
   margin-left: 00px;
@@ -272,16 +292,16 @@ footer{
   color: #ffffff;
   border: 1px solid #03242D;
   background: #03242D;
-  margin-left: 15px;
-  margin-right: 20px;
+  
+  margin-right: 6.5em;
   margin-top:3px;
 }
 .genric-btn.primary-border {
   color: #03242D;
   border: 1px solid #03242D;
   background: #fff;
-  margin-left: 15px;
-  margin-right: 20px;
+  
+  margin-right: 6.5em;
   margin-top:3px;
 }
 
