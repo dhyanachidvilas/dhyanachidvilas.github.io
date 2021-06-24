@@ -67,6 +67,13 @@ figure {
   transition: 0.5s;
   text-decoration: none;
 }
+.navitemfont {
+  color:black;
+}
+.navitemfont:hover {
+  color: #03242D;
+  transition-duration: 0.3s;
+}
 .text_mar{
   margin-top: 50px;
   margin-left: 200px;
@@ -295,6 +302,7 @@ footer{
   
   margin-right: 6.5em;
   margin-top:3px;
+  transition-duration: 0.5s;
 }
 .genric-btn.primary-border {
   color: #03242D;
