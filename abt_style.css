@@ -84,21 +84,18 @@ img {
 .newpadding{
     padding-left: 20px;
 }
-.container {
-    display: flex;
-    align-items: center;
-    margin-left: 180px;
-    margin-top:100px;
-    justify-content:center;
-}
 .text {
     font-size: 0.98rem;
     padding-left: 10px;
     margin-left: 30px;
     color:#010509;
 }
+.headtext {
+  color:#010509;
+  font-size: 0.98rem;
+}
 .logohead {
-  margin-left: 6em;
+  margin-left: 4.5em;
 }
 .containerprefooter {
   display: flex;
@@ -274,8 +271,11 @@ img {
   font-size: 15px;
   color:#010509;
 }
-.image {
-  height:auto;
+.alignmentimage {
+  text-align: center;
+}
+.alignmentimage2{
+  text-align: center;
 }
 footer{
   background-color: #FFFFFF;

@@ -79,16 +79,7 @@ figure {
 img {
     border-radius: 50%;
 }
-.container {
-    display: flex;
-    align-items: center;
-    margin-left: 12em;
-    margin-top:6em;
-    margin-right: 12em;
-    justify-content:center;
-    width: 100%;
-    /*background-color: rgb(255, 255, 255);*/
-}
+
 .nav-link {
     font-color: black;
 }
@@ -174,7 +165,6 @@ img {
 .backcolor {
     background-color:rgb(243, 243, 243);
 }
-
 .prev_footer{
     font-size: 15px;
     color:#010509;
@@ -190,7 +180,7 @@ footer{
     font-size: 15px;
 }
 .logohead {
-    margin-left: 6em;
+    margin-left: 4.5em;
 }
 .nav-item {
     margin-right: 1.1em;
