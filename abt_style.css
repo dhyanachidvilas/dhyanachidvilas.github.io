@@ -67,6 +67,15 @@ figure {
   transition: 0.5s;
   text-decoration: none;
 }
+.links {
+  text-decoration: none;
+  color:#0a7b9b;
+}
+.links:hover {
+  text-decoration: none;
+  color:#0a7b9b;
+  opacity: 30%;
+}
 .navitemfont {
   color:black;
 }
