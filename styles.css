@@ -61,7 +61,7 @@ figure {
     margin-left: 120px;
 }
 .bluehover{
-    color:#010509;
+    color:#000000;
     text-decoration: none;
   }
 .bluehover:hover{
@@ -69,7 +69,15 @@ figure {
     transition: 0.5s;
     text-decoration: none;
 }
-
+.bluehover2{
+    color:#cacaca;
+    text-decoration: none;
+  }
+.bluehover2:hover{
+    color:#03242D;
+    transition: 0.5s;
+    text-decoration: none;
+}
 .image {
     height:auto;
 }
@@ -86,7 +94,13 @@ img {
 .nav-link:hover {
     font-color:#03242D;
 }
-
+.navbar-custom {
+    background-color: #041b22;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(255, 255, 255);
+}
 
 .containerprefooter {
     display: flex;
@@ -105,32 +119,34 @@ img {
     font-size: 0.98rem;
     padding-left: 0px;
     margin-left: 60px;
-    color:#010509;
+    color:#000000;
 }
 .footertext {
    
     font-size: 0.98rem;
     margin-left: 2.5em;
     padding-left: 0px;
-    color:#010509;
+    color:#000000;
     
 }
 .homepage1 {
     font-size: 1.7rem;
+    color:black;
 }
 .homepage2 {
     font-size: 2.5rem;
+    color:black;
 }
 .headermargin{
     margin-top: 50px;
     margin-left: 200px;
-    color:#010509;
+    color:#000000;
 }
 .textmargin{
     margin-top:20px;
     margin-left:30px;
     margin-right:160px;
-    color:#010509;
+    color:#000000;
 }
 .social a {
     font-size:2.5em;
@@ -163,16 +179,16 @@ img {
     color:#d5d5d5;
 }
 .backcolor {
-    background-color:rgb(243, 243, 243);
+    background-color:#ececec;
 }
 .prev_footer{
     font-size: 15px;
-    color:#010509;
+    color:#000000;
 }
 
 footer{
-    background-color: #FFFFFF;
-    color:#010509;
+    background-color: #041b22;
+    color:#cacaca;
     width:100%;
 }
 .footerele{
@@ -186,7 +202,7 @@ footer{
     margin-right: 1.1em;
 }
 .navitemfont {
-    color:black;
+    color:#ccc9dc;
 }
 .navitemfont:hover {
     color: #03242D;

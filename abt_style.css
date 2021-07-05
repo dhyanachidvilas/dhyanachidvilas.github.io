@@ -59,10 +59,19 @@ figure {
     margin-left: 120px;
 }
 .bluehover{
-  color:#010509;
+  color:#000000;
   text-decoration: none;
 }
 .bluehover:hover{
+  color:#03242D;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.bluehover2{
+  color:#cacaca;
+  text-decoration: none;
+}
+.bluehover2:hover{
   color:#03242D;
   transition: 0.5s;
   text-decoration: none;
@@ -77,11 +86,18 @@ figure {
   opacity: 30%;
 }
 .navitemfont {
-  color:black;
+  color:#ccc9dc;
 }
 .navitemfont:hover {
   color: #03242D;
   transition-duration: 0.3s;
+}
+.navbar-custom {
+  background-color: #041b22;
+}
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgb(255, 255, 255);
 }
 .text_mar{
   margin-top: 50px;
@@ -271,14 +287,14 @@ img {
   color:#d5d5d5;
 }
 .backcolor {
-  background-color: rgb(243, 243, 243);
+  background-color: #ececec;
 }
 .nav-item {
   margin-right: 1.1em;
 }
 .prev_footer{
   font-size: 15px;
-  color:#010509;
+  color:#000000;
 }
 .alignmentimage {
   text-align: center;
@@ -287,8 +303,8 @@ img {
   text-align: center;
 }
 footer{
-  background-color: #FFFFFF;
-  color:#303030;
+  background-color: #041b22;
+  color:#cacaca;
   width:100%;
 }
 .footertext {
